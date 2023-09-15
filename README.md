@@ -1,12 +1,12 @@
 # Hello FlatFile
-The purpose of this repo is testing (FlatFile)[https://flatfile.com/].
+The purpose of this repo is testing [FlatFile](https://flatfile.com/).
 
 ## How to execute
 1. Clone and open the repository
 2. Follow the next steps below.
 
 ## Create an account on FlatFile
-1. Create an account on (FlatFile)[https://flatfile.com/];
+1. Create an account on [FlatFile](https://flatfile.com/);
 2. Logged with your created account;
 3. At your dashboard, on the left side menu, choose Env: development;
 4. Copy your 'secret key'.
@@ -54,10 +54,6 @@ curl --request POST \
     }
   ]
 }'
-```
-```diff
-! The schema needs to be defined in FlatFile. How would we will import the clients needs?
-! Will we have a default scheme and all clients needs to adapt to it?
 ```
 
 ## Run the App
