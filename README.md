@@ -57,10 +57,11 @@ curl --request POST \
 ```
 
 ## Run the App
-1. Enter in '/src/.env' and make some changes:
+1. Enter int '/src/' and rename the '.env.example' to '.env';
+2. Apply these changes:
     - Paste your 'secret key' into 'FLATFILE_API_KEY' value;
     - Paste your 'environment id' into 'FLATFILE_ENVIRONMENT_ID' value.
-2. In terminal, run the following commands:
+3. In terminal, run the following commands:
     - cd src
     - npm install
     - npx flatfile develop index.ts
