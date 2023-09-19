@@ -82,3 +82,17 @@ To start importing files, you should log in into your FlatFile account and acces
 5. Select the "Contacts" sheet and click on "Continue";
 6. You will see the map fields, but for now you could just click "Continue" because all the maps are correctly;
 7. Your file has been imported and you should see the events logged on your app.
+
+## How to deploy on FlatFile
+The deploy proccess could be in two ways:
+(1) Deploy on your cloud solution
+(2) Deploy on FlatFile
+You can learn more [here](https://flatfile.com/docs/developer-tools/deploying).
+
+In this section, we'll make deploy on FlatFile.
+
+To do it, just need to execute this command in a terminal:
+```bash
+npx flatfile@latest deploy index.ts
+```
+

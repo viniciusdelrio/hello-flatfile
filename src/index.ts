@@ -55,9 +55,7 @@ export default function flatfileEventListener(listener: Client) {
 
         console.log(JSON.stringify(records, null, 2));
 
-        const webhookReceiver =
-          process.env.WEBHOOK_SITE_URL ||
-          "https://webhook.site/c83648d4-bf0c-4bb1-acb7-9c170dad4388"; //update this
+        const webhookReceiver = process.env.WEBHOOK_SITE_URL;
 
         const response = await axios.post(
           webhookReceiver,
