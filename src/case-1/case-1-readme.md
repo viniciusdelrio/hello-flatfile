@@ -1,5 +1,5 @@
 # Case 1: Hello Flatfile
-The purpose of this repo is testing [Flatfile](https://flatfile.com/).
+Applying the getting-start Flatfile tutorial.
 
 ## How to execute
 1. Clone and open the repository
