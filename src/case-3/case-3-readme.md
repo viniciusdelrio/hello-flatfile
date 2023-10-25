@@ -1,5 +1,5 @@
 # Case 3: How to handle with clients
-In this example I use the Flatfile React embedded component working with two comboboxes. THese choose what workbook and listener the component will render and use.
+In this example I use the Flatfile React embedded component working with two comboboxes. These choose what workbook and listener the component will render and use.
 
 ## Prereq.
 This example assumes that you have done the case 1, because you will need env id and publishable key to run this example!
